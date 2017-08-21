@@ -1,0 +1,7 @@
+version: '2'
+services:
+    sniproxy:
+        image: stealthii/sniproxy
+        ports:
+            - 0.0.0.0:80:80
+            - 0.0.0.0:443:443
